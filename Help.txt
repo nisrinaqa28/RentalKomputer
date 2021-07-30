@@ -1,0 +1,78 @@
+
+Struktur menu
+Adapun struktur menu program rental komputer adalah sebagai berikut:
+1. Register rental (A)
+2. Tampilkan status komputer (B)
+3. Beli makan/minum (C)
+4. Tampilkan pengguna tertentu (D)
+5. Display semua user (E)
+6. Checkout (F)
+7. Rekap (G)
+8. Help 
+7. Exit 
+
+Penggunaan
+Pada bagian ini akan dijelaskan mengenai tata cara menggunakan program rental komputer.
+
+A. Menu Registrasi Rental
+   Untuk memulai pendataan pelanggan dengan program rental komputer:
+   1. Pilih menu registrasi rental dengan ketik angka 1 pada kolom "pilihan anda", Kemudian tekan enter pada tombol keyboard.
+   2. Setelah itu program akan menampilkan list komputer yang tersedia.
+   3. Kemudian pelanggan pilih komputer yang akan dipakai.
+   4. Ketik angka komputer yang sesuai dengan pilihan pelanggan pada kolom "pilih komputer yang di ingin digunakan (1-10)", kemudian tekan enter pada tombol keyboard.
+   5. Pelanggan pilih paket rental yang diinginkan.
+   6. Ketik angka paket yang diinginkan pelanggan pada kolom "pilihan anda", kemudian tekan enter pada tombol keyboard.
+   7. Ketik nama pelanggan yang akan rental komputer pada kolom, kemudian tekan enter pada tombol keyboard.
+   8. Ketik jam masuk pelanggan pada kolom "masukkan jam masuk" dengan format mengetik jam masuk hh:mm:ss.
+   9. jika dalam mengetik jam masuk pelanggan sesuai format maka program akan menampilkan "Waktu valid, silahkan lanjut" dan pelanggan bisa memakai komputer, 
+      jika tidak sesuai maka program akan menampilkan "Waktu tidak valid, silahkan ulangi lagi" dan admin mengetik ulang jam masuk pelanggan yang sesuai dengan format.
+
+B. Tampilkan Status Komputer
+   Untuk mengetahui status komputer pada rental komputer:
+   1. Pilih menu tampilkan status komputer dengan ketik angka 2 pada kolom "pilih anda", Kemudian tekan enter pada tombol keyboard.
+   2. Setelah itu program akan menampilkan status komputer pada rental komputer.
+   3. Dalam tampilan akan ada tulisan "Vacant" yang berarti kosong, dan "In Use" yang  berarti Sedang dipakai
+
+C. Beli Makan/Minum
+   Untuk pelanggan yang ingin membeli makan/minum:
+   1. Pilih menu beli makan/minum dengan ketik angka 3 pada kolom "pilihan anda", Kemudian tekan enter pada tombol keyboard.
+   2. Masukkan ID pengguna yang ingin membeli makan dengan ketik ID Penggunan pada kolom "Masukkan ID Pengguna", kemudian tekan enter pada tombol keyboard.
+   3. program akan menampilkan List Menu makan/minum.
+   4. ketik angka pilihan makanan atau minuman yang diingkan pelanggan pada kolom "Pilih item", kemudian tekan enter pada tombol keyboard.
+   5. ketik jumlah item makanan atau minuman yang diinginkan pelanggan pada kolom "Jumlah item", kemudian tekan enter pada tombol keyboard.
+   6. Program akan menampilkan Total Pembelian dan Grand Total pelanggan.
+
+D. Tampilkan pengguna tertentu
+   Untuk mengetahui data pelanggan rental komputer tertentu:
+   1. Pilih menu tampilkan pengguna tertentu dengan ketik angka 4 pada kolom "pilihan anda", Kemudian tekan enter pada tombol keyboard.
+   2. Ketik ID Pelanggan yang diinginkan pada kolom "Masukkan ID Pengguna:", kemudian tekan enter pada tombol keyboard.
+   3. Program akan menampilkan data pelanggan, yaitu ID Pelanggan, ID Komputer, Nama Pelanggan, dan Grand total.
+
+E. Display Semua User
+   Untuk mengetahui data semua pelanggan rental komputer:
+   1. Pilih menu display semua user tertentu dengan ketik angka 5 pada kolom "pilihan anda", Kemudian tekan enter pada tombol keyboard.
+   2. Program akan menampilkan semua data pelanggan, yaitu ID Pelanggan, ID Komputer, Nama Pelangan, dan Grand Total.
+
+F. Checkout
+   Untuk mengakhiri pemakaian rental komputer dan biaya yang akan dibayar pelanggan:
+   1. Pilih menu checkout dengan ketik angka 6 pada kolom "pilihan anda", Kemudian tekan enter pada tombol keyboard.
+   2. Ketik ID pelanggan yang telah selesai rental komputer pada kolom "Masukkan ID", kemudian tekan enter pada tombol keyboard.
+   3. Ketik jam keluar pelanggan sesuai format pada kolom "masukkan jam keluar (hh:mm:ss)", kemudian tekan enter pada tombol keyboard.
+   4. Jika dalam mengetik jam keluar pelanggan sesuai format maka program akan menampilkan "Waktu valid, silahkan lanjut" ,jika tidak 
+      sesuai maka program akan menampilkan "Waktu tidak valid, silahkan ulangi lagi" dan admin mengetik ulang jam keluad pelanggan yang sesuai dengan format.
+   5. Ketik angka jenis kertas yang dipakai pelanggan dalam print pada kolom "pilihan anda", kemudian tekan enter pada tombol keyboard.
+   6. Jika pelanggan melakukan print, maka ketik jumlah kertas yang digunakan pelanggan pada kolom "Masukkan jumlah kertas yang digunakan:", kemudian tekan 
+      enter pada tombol keyboard.
+   7. Program akan menampilkan data pelanggan, yaitu ID Pelanggan, ID Komputer, Nama, Durasi, Pilihan paket, dan grand total,
+
+G. Tampilkan Rekap
+   Untuk mengetahui data semua pelanggan yang pernah datang ke rental komputer:
+   1. Pilih menu tampilkan rekap dengan ketik angka 7 pada kolom "pilihan anda", Kemudian tekan enter pada tombol keyboard.
+   2. Program akan menampilkan data semua pelanggan yang pernah datang ke rental komputer. Data terdiri dari: 
+	-Nama
+	-Jam Masuk
+	-Jam Keluar
+	-Tambahan
+	-Kertas
+	-Paket
+	-Biaya akhir
